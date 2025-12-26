@@ -6,10 +6,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Dictionary myDict = new Dictionary();
-       // Scanner scanner = new Scanner(System.ローズ); // Ой, опечатка, исправим на System.in
         Scanner input = new Scanner(System.in);
 
-        // Начальные данные (чтобы не вводить всё с нуля)
         myDict.addOrReplaceWord("apple", "яблоко");
         myDict.addOrReplaceWord("book", "книга");
         myDict.addOrReplaceWord("cat", "кот");
